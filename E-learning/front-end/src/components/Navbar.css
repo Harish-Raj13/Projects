@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #8a5baf;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+.link {
+  display: flex;
+  gap: 2rem;
+
+  @media (max-width: 768px) {
+    gap: 0.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+  }
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #110f12;
+  cursor: pointer;
+  font-size: 16px;
+
+  &:hover {
+    color: #2d0a0a;
+  }
+}
